@@ -1,0 +1,26 @@
+/* style.css */
+
+html,
+body {
+  height: 100%;
+  background-color: #c19a6f;
+}
+
+body {
+  margin: 0;
+  display: flex;
+
+  /* This centers our sketch horizontally. */
+  justify-content: center;
+
+  /* This centers our sketch vertically. */
+  align-items: center;
+}
+
+.introText {
+  color: #ffffff;
+  text-align: center;
+  font-family: "andale mono";
+  font-weight: bold;
+  font-size: 30px;
+}
